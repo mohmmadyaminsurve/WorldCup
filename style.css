@@ -1,0 +1,85 @@
+body{
+    background-color: gainsboro;
+}
+
+
+
+
+
+/* Lines of the Toggler */
+
+
+/* Adds Space between the lines */
+
+
+/* Hover section for bootsrtap */
+.navbar .navbar-nav .nav-link:hover {
+    background-color: white;
+    color: #880E4F;
+  }  
+.navbar .navbar-nav .nav-link {
+  padding: 0.6em;
+  font-size: 1.2em;
+  transition: all 0.5s;
+}
+.navbar .navbar-brand {
+  padding: 0 0.6em;
+  font-size: 1.5em;
+  font-weight: bold;
+ 
+
+}
+
+.navbar a {
+    color: white;
+    font-weight: bold;
+     font-family: Felix Titling;
+}
+
+.dropdown-menu{
+  background-color: #880E4F;
+  box-shadow: -0px -0px 50px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.dropdown-divider{
+  color: antiquewhite;
+
+}
+/* not working 
+.searchbutton{
+  border: 2px solid white; 
+  color:white;
+}
+
+.searchbutton:hover{
+  background-color: white;
+  color: red;
+}
+
+*/
+
+/* A linkl has been used ofr drop down list */
+a.one:link{
+  color: black;
+}
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  
+
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0.7em;
+  }
+  .navbar .navbar-brand {
+    padding: 0 0.8em;
+  }
+}
+
+
+
+
+
+
